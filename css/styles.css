@@ -898,6 +898,7 @@ body {
   transition: border var(--transition-duration) var(--transition-func);
 }
 
+.modal-form-checkbox:hover + .modal-form-checkbox-label::before,
 .modal-form-checkbox:focus + .modal-form-checkbox-label::before {
   border: 2px solid var(--primary-action-color);
 }
