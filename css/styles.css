@@ -509,6 +509,15 @@ body {
   width: 358px;
   height: 50px;
   margin-right: 12px;
+  padding: 16px;
+  background-color: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  color: var(--bg-color);
+}
+
+.subscribe-form-input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .subscribe-btn, 
@@ -805,10 +814,12 @@ body {
 
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
+  cursor: pointer;
 
   transition: border-color var(--transition-duration) var(--transition-func);
 }
 
+.modal-form-input:hover,
 .modal-form-input:focus {
   outline: none;
   border-color: var(--primary-action-color);
@@ -853,6 +864,7 @@ body {
   color: rgba(117, 117, 117, 0.5);
 }
 
+.modal-form-message:hover,
 .modal-form-message:focus {
   outline: none;
   border-color: var(--primary-action-color);
