@@ -838,6 +838,7 @@ body {
   transition: fill var(--transition-duration) var(--transition-func);
 }
 
+.modal-form-input:hover + .modal-form-icon,
 .modal-form-input:focus + .modal-form-icon {
   fill: var(--primary-action-color);
 }
