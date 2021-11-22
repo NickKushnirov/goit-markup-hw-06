@@ -164,7 +164,7 @@ body {
   height: 4px;
   border-radius: 2px;
   background-color: var(--primary-action-color);
-  bottom: 0;
+  bottom: -1px;
   display: block;
 }
 
@@ -218,7 +218,7 @@ body {
 }
 
 .footer-links {
-  margin-right: 70px;
+  margin-right: 50px;
 }
 
 .footer-social {
@@ -504,6 +504,10 @@ body {
 }
 
 /* subscribe */
+
+.subscribe-wrapper {
+  display: flex;
+}
 
 .subscribe-form-input {
   width: 358px;
