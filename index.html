@@ -504,27 +504,26 @@
           </ul>
         </div>
 
-        <div class="footer-mailing-subscribe">
-          <form action="#" class="subscribe-form">
-            <p class="footer-social-text">Подпишитесь на рассылку</p>
-            <label for="email" class="subscribe-field"></label>
-            <input
-              type="email"
-              class="subscribe-form-input"
-              name="subscribe-user-mail"
-              minlength="5"
-              placeholder="E-mail"
-              required
-            />
+        <form action="#" class="subscribe-form">
+          <p class="footer-social-text">Подпишитесь на рассылку</p>
+          <label for="email" class="subscribe-field"></label>
+          <input
+            id="email"
+            type="email"
+            class="subscribe-form-input"
+            name="subscribe-user-mail"
+            minlength="5"
+            placeholder="E-mail"
+            required
+          />
 
-            <button type="submit" class="btn subscribe-btn">
-              <span class="subscribe-btn-text">Подписаться</span
-              ><svg class="subscribe-btn-icon" width="24" height="24">
-                <use href="./images/icons.svg#icon-send"></use>
-              </svg>
-            </button>
-          </form>
-        </div>
+          <button type="submit" class="btn subscribe-btn">
+            <span class="subscribe-btn-text">Подписаться</span
+            ><svg class="subscribe-btn-icon" width="24" height="24">
+              <use href="./images/icons.svg#icon-send"></use>
+            </svg>
+          </button>
+        </form>
       </div>
     </footer>
 
@@ -542,7 +541,7 @@
             Оставьте свои данные, мы вам перезвоним
           </p>
 
-          <label for="" class="modal-form-field"
+          <label class="modal-form-field"
             >Имя
             <span class="modal-form-wrapper">
               <input
@@ -561,7 +560,7 @@
             </span>
           </label>
 
-          <label for="" class="modal-form-field"
+          <label class="modal-form-field"
             >Телефон
             <span class="modal-form-wrapper">
               <input
@@ -578,19 +577,18 @@
             </span>
           </label>
 
-          <label for="" class="modal-form-field"
+          <label class="modal-form-field"
             >Почта
             <span class="modal-form-wrapper">
-              <input type="mail" class="modal-form-input" name="user-mail" />
+              <input type="email" class="modal-form-input" name="user-mail" />
               <svg class="modal-form-icon">
                 <use href="./images/icons.svg#icon-email"></use>
               </svg>
             </span>
           </label>
 
-          <label for="" class="modal-form-field"
+          <label class="modal-form-field"
             >Комментарий
-
             <textarea
               class="modal-form-message"
               name="user-message"
@@ -601,6 +599,7 @@
           <input
             type="checkbox"
             id="accept-policy"
+            name="accept-policy"
             class="modal-form-checkbox visually-hidden"
           />
           <label for="accept-policy" class="modal-form-checkbox-label"
